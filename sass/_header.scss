@@ -1,6 +1,6 @@
 .header {
   height: 100vh;
-  background: url("/images/header-background.jpg");
+  background: url("../images/header-background.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -53,7 +53,6 @@
     @media (max-width: 40.6rem) {
       display: none;
     }
-
     &-item {
       list-style: none;
       display: inline-block;
